@@ -27,7 +27,7 @@ export function readDB() {
   return chatrooms;
 }
 
-export function writeDB(_chatrooms) {
-  //write in-memory DB
-  chatrooms = _chatrooms;
+export function writeDB(_chatroom) {
+  //read in-Smemory DB
+  chatrooms = _chatroom;
 }
